@@ -1,0 +1,150 @@
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import "bootstrap/scss/functions";
+@import "./_variables.scss";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/code";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/input-group";
+@import "bootstrap/scss/custom-forms";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/jumbotron";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/media";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/print";
+@import "./fonts.scss";
+
+@include media-breakpoint-down(md) {
+    .container {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#root {
+    height: 100%;
+    font-family: JetAcrobat;
+    font-size: 19px;
+}
+
+.card {
+    width: 10rem;
+}
+
+.ticket-button {
+    border-radius: 0;
+    margin-left: 50px;
+    font-family: JetAcrobat;
+    font-size: 20px;
+}
+
+.table thead th {
+    vertical-align: middle;
+}
+
+.answer-table {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ccc;
+    &:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+}
+
+.form-control-feedback {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.has-danger {
+    .input-group {
+        border: 1px solid #d9534f;
+        border-radius: 0.25rem;
+    }
+    .col-form-label,
+    .custom-control,
+    .form-check-label,
+    .form-control-feedback,
+    .form-control-label {
+        color: #d9534f;
+    }
+}
+
+.has-warning {
+    .input-group {
+        border: 1px solid #f0ad4e;
+        border-radius: 0.25rem;
+    }
+    .col-form-label,
+    .custom-control,
+    .form-check-label,
+    .form-control-feedback,
+    .form-control-label {
+        color: #f0ad4e;
+    }
+}
+
+.text-hint {
+    margin-top: 1.5rem !important;
+}
+
+.form-group {
+    .form-control-label {
+        margin-right: 10px
+    }
+    &.required {
+        .form-control-label {
+            position: relative;
+            &::after {
+                content: '*';
+                color: $red;
+                font-size: 28px;
+                line-height: 0px;
+                position: absolute;
+                right: -8px;
+                top: 16px;
+            }
+        }
+    }
+}
+
+.tooltip-custom{
+    font-size: 1.25em
+}
+
+.bg-problem {
+    background-color: #f2dede;
+}

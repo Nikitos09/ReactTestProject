@@ -1,0 +1,2 @@
+export const NAME = 'AUTH/RESET_PASSWORD';
+export const FORM_NAME = 'RESET_PASSWORD_FORM';

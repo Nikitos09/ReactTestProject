@@ -1,0 +1,38 @@
+@font-face {
+  font-family: JetAcrobat;
+  src: url(./fonts/Akrobat-Black.otf);
+  font-weight: 900; }
+
+@font-face {
+  font-family: JetAcrobat;
+  src: url(./fonts/Akrobat-Bold.otf);
+  font-weight: bold; }
+
+@font-face {
+  font-family: JetAcrobat;
+  src: url(./fonts/Akrobat-ExtraBold.otf);
+  font-weight: bolder; }
+
+@font-face {
+  font-family: JetAcrobat;
+  src: url(./fonts/Akrobat-ExtraLight.otf);
+  font-weight: lighter; }
+
+@font-face {
+  font-family: JetAcrobat;
+  src: url(./fonts/Akrobat-Light.otf); }
+
+@font-face {
+  font-family: JetAcrobat;
+  src: url(./fonts/Akrobat-Regular.otf);
+  font-weight: 500; }
+
+@font-face {
+  font-family: JetAcrobat;
+  src: url(./fonts/Akrobat-SemiBold.otf);
+  font-weight: 600; }
+
+@font-face {
+  font-family: JetAcrobat;
+  src: url(./fonts/Akrobat-Thin.otf);
+  font-weight: 100; }
